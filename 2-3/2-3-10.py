@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import sounddevice as sd
+import sounddevice as sd                       # Possibly requires 'libportaudio2' (sudo apt install libportaudio2)
 
 rate = 44100.0                                 # SampleRate, 44100 Sampling per 1 sec, 44100Hz         
 sec = 1                                        # Signal Duration: 1 sec
